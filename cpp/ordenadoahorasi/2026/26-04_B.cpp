@@ -2,7 +2,7 @@
 
 int main () {
 
-    int estudiantes = 31;
+    float estudiantes = 30;
 
     // estudiantes = estudiantes + 2;
     // estudiantes+=2;
@@ -22,13 +22,15 @@ int main () {
     // estudiantes/=3;
 
     // modulo
-    int resto = estudiantes % 2;
-    if (resto==0) {
-        std::cout<<"El numero es par"<<std::endl;
-    }
-    else {
-        std::cout<<"El numero es impar"<<std::endl;
-    }
+    // int resto = estudiantes % 2;
+    // if (resto==0) {
+    //     std::cout<<"El numero es par"<<std::endl;
+    // }
+    // else {
+    //     std::cout<<"El numero es impar"<<std::endl;
+    // }
+
+    estudiantes=6-(5+4)*3/2.0;
 
     std::cout<<estudiantes<<std::endl;
 
